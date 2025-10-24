@@ -59,7 +59,16 @@ public class AppFintech {
                 
                 if (catSvc.eliminar(idd)) System.out.println("Eliminada."); else System.out.println("No encontrada."); }
                 break;
+                
+            case "0": 
+                System.out.println("Saliendo de la app");
+                break;
+                      
+            default:
+                System.out.println("Opvion invalida");
                 }
+        
+        sc.close();
         }
     }
 }
